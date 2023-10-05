@@ -1,0 +1,1 @@
+const argumentsLength = (...args: any[]) => args.length;

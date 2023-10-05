@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "commonjs",
+        "allowJs": true,
+        "strict": true,
+    },
+    "include": ["**/*.ts"],
+}
