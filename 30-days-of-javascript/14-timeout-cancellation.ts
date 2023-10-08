@@ -1,4 +1,3 @@
-type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
 type Fnc = (...args: JSONValue[]) => void
 
 function cancellable(fn: Fnc, args: JSONValue[], t: number): Function {

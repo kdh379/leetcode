@@ -4,6 +4,12 @@
         "module": "commonjs",
         "allowJs": true,
         "strict": true,
+        "typeRoots": [
+            "./global.d.ts",
+        ]
+    },
+    "ts-node": {
+        "files": true,
     },
     "include": ["**/*.ts"],
 }
